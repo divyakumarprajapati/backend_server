@@ -88,6 +88,6 @@ test:
 #
 production:
   <<: *default
-  database: backend_server
+  database: first-project
   username: rails
   password: <%= ENV['EXAMPLE_DATABASE_PASSWORD'] %>
