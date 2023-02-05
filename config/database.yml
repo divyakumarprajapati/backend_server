@@ -88,6 +88,6 @@ test:
 #
 production:
   <<: *default
-  database: first-project
+  database: backend_server
   username: divy
   password: <%= ENV['EXAMPLE_DATABASE_PASSWORD'] %>
