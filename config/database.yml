@@ -63,7 +63,7 @@ test:
   <<: *default
   database: backend_server_test
   port: 5432
-  username: divy
+  username: postgres
   password: dream-api
 
 # As with config/credentials.yml, you never want to store sensitive information,
@@ -89,5 +89,5 @@ test:
 production:
   <<: *default
   database: backend_server
-  username: divy
+  username: postgres
   password: <%= ENV['EXAMPLE_DATABASE_PASSWORD'] %>
