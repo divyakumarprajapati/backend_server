@@ -88,6 +88,6 @@ test:
 #
 production:
   <<: *default
-  database: backend_server
-  username: postgres
-  password: <%= ENV['EXAMPLE_DATABASE_PASSWORD'] %>
+  database: postgres_1_8jkq
+  username: divyakumar
+  password: JGzyWQNIWF0SEpZx3Ny4dYs10bd65scT
