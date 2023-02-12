@@ -88,6 +88,4 @@ test:
 #
 production:
   <<: *default
-  database: postgres_1_8jkq
-  username: divyakumar
-  password: JGzyWQNIWF0SEpZx3Ny4dYs10bd65scT
+  url: <%= ENV['DATABASE_URL'] %>
